@@ -19,7 +19,7 @@
   <section>
     <!-- Rating state start -->
     <div class="container">
-      <img src="images/icon-star.svg" alt="start">
+      <img src="images/icon-star.svg" alt="start" class="img-start">
       <h1>How did we do?</h1>
       <p class="disclaimer">
         Please let us know how we did with your support request. All feedback is appreciated
@@ -36,7 +36,15 @@
       </div>
       <input type="submit" value="SUBMIT" class="submit-btn">
     </div>
-    <div id="root"></div>
+
+    <div class="container-reverse hidden">
+      <img src="images/illustration-thank-you.svg" alt="thank-you" class="img-ty">
+      <p class="rating">You selected <span id="ratio-number"></span> out of 5</p>
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+      <input type="submit" value="BACK" class="submit-btn">
+    </div>
   </section>
 
 
