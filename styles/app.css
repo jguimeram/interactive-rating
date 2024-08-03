@@ -104,21 +104,30 @@ p.disclaimer {
     justify-content: space-between;
 }
 
-.numbers-list li {
-    display: inline;
+input {
+    font-family: inherit;
+}
+
+.btn {
+    color: var(--white);
+    border: none;
     width: 50px;
     height: 50px;
     font-size: 1rem;
     font-weight: var(--bold);
-    line-height: 50px;
     background-color: var(--dark-blue);
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
 }
 
-.numbers-list li:hover {
+.numbers-list button:hover {
     background-color: var(--orange);
+    color: var(--dark-blue);
+}
+
+.numbers-list button:focus {
+    background-color: var(--white);
     color: var(--dark-blue);
 }
 
